@@ -1,32 +1,51 @@
 🍽 Zomato Data Analysis Project
+
 This project explores and visualizes restaurant data from Zomato to uncover insights about customer preferences, location trends, cuisines, and ratings.
 
 📊 Technologies Used
-Python
-Pandas & NumPy
-Matplotlib & Seaborn
-VS Code
+
+-Python
+
+-Pandas & NumPy
+
+-Matplotlib & Seaborn
+
+-VS Code
 
 📁 Dataset
-zomato.csv
-The dataset includes restaurant details from Bengaluru, India.
-Columns: Name, Location, Cuisines, Online Order, Book Table, Ratings, Cost for Two, etc.
+
+-zomato.csv
+
+-The dataset includes restaurant details from Bengaluru, India.
+
+-Columns: Name, Location, Cuisines, Online Order, Book Table, Ratings, Cost for Two, etc.
 
 🔍 Project Goals
-Clean and preprocess messy real-world data
-Understand which restaurant types are most common
-Explore cost vs rating: Are expensive restaurants rated better?
-See how online ordering affects ratings
-Discover the most popular cuisines and locations
+
+-Clean and preprocess messy real-world data
+
+-Understand which restaurant types are most common
+
+-Explore cost vs rating: Are expensive restaurants rated better?
+
+-See how online ordering affects ratings
+
+-Discover the most popular cuisines and locations
 
 📌 Key Insights
-Casual Dining dominates restaurant types
-Restaurants offering online ordering generally receive higher ratings
-No strong link between cost and rating
-North Indian, Chinese, and South Indian are the most popular cuisines
-BTM, Koramangala, and Whitefield have the highest restaurant density
+
+-Casual Dining dominates restaurant types
+
+-Restaurants offering online ordering generally receive higher ratings
+
+-No strong link between cost and rating
+
+-North Indian, Chinese, and South Indian are the most popular cuisines
+
+-BTM, Koramangala, and Whitefield have the highest restaurant density
 
 📷 Visualizations
+
 Bar plots, scatter plots, and box plots were created to display:
 
 Top 10 restaurant 
@@ -50,7 +69,9 @@ Top 10 locations
 
 
 🛠️ How to Run
+
 Clone the repository
+
 Install dependencies:
 
 pip install -r requirements.txt
