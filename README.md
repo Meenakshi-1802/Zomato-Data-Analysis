@@ -52,4 +52,5 @@ Top 10 locations
 🛠️ How to Run
 Clone the repository
 Install dependencies:
+
 pip install -r requirements.txt
