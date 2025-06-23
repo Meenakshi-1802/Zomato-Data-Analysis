@@ -1,77 +1,67 @@
-🍽 Zomato Data Analysis Project
+# 🍽 Zomato Data Analysis Project
 
 This project explores and visualizes restaurant data from Zomato to uncover insights about customer preferences, location trends, cuisines, and ratings.
 
-📊 Technologies Used
+## 📊 Technologies Used
 
--Python
+- Python
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Jupyter/VS Code
 
--Pandas & NumPy
+---
 
--Matplotlib & Seaborn
+## 📁 Dataset
 
--VS Code
+- `zomato.csv`  
+  The dataset includes restaurant details from Bengaluru, India.  
+  Columns: Name, Location, Cuisines, Online Order, Book Table, Ratings, Cost for Two, etc.
 
-📁 Dataset
+---
 
--zomato.csv
+## 🔍 Project Goals
 
--The dataset includes restaurant details from Bengaluru, India.
+- Clean and preprocess messy real-world data
+- Understand which restaurant types are most common
+- Explore cost vs rating: Are expensive restaurants rated better?
+- See how online ordering affects ratings
+- Discover the most popular cuisines and locations
 
--Columns: Name, Location, Cuisines, Online Order, Book Table, Ratings, Cost for Two, etc.
+---
 
-🔍 Project Goals
+## 📌 Key Insights
 
--Clean and preprocess messy real-world data
+- **Casual Dining** dominates restaurant types
+- Restaurants offering **online ordering** generally receive higher ratings
+- No strong link between **cost** and **rating**
+- **North Indian, Chinese, and South Indian** are the most popular cuisines
+- **BTM, Koramangala, and Whitefield** have the highest restaurant density
 
--Understand which restaurant types are most common
+---
 
--Explore cost vs rating: Are expensive restaurants rated better?
-
--See how online ordering affects ratings
-
--Discover the most popular cuisines and locations
-
-📌 Key Insights
-
--Casual Dining dominates restaurant types
-
--Restaurants offering online ordering generally receive higher ratings
-
--No strong link between cost and rating
-
--North Indian, Chinese, and South Indian are the most popular cuisines
-
--BTM, Koramangala, and Whitefield have the highest restaurant density
-
-📷 Visualizations
+## 📷 Visualizations
 
 Bar plots, scatter plots, and box plots were created to display:
 
-Top 10 restaurant 
-![Resturant](https://github.com/user-attachments/assets/c5b16fe4-bc5b-40a2-843e-cb24468349d8)
+- Top 10 restaurant types
+![Resturant](https://github.com/user-attachments/assets/85a9848f-91df-421b-a328-cc3e7ab5a97d)
+
+- Online order vs rating
+![Order vs Rating](https://github.com/user-attachments/assets/10d15977-a286-4d50-94d0-6d6af26575e7)
+
+- Cost for two vs rating
+![Cost vs Rating](https://github.com/user-attachments/assets/3fa1c747-260d-414f-8930-6752af5fade6)
+
+- Top 10 cuisines
+![Cuisines](https://github.com/user-attachments/assets/455abebb-20bb-4985-92a6-db5b4f447b2e)
+
+- Top 10 locations
+![Locations with Resturants](https://github.com/user-attachments/assets/a184d708-fade-4271-aad0-393decf2934f)
 
 
-Online order vs rating 
-![Order vs Rating](https://github.com/user-attachments/assets/428df26e-0ee9-4e9e-9afc-c6bfd3efe76a)
+## 🛠️ How to Run
 
-
-Cost for two vs rating Cost 
-![Cost vs Rating](https://github.com/user-attachments/assets/3cc078a1-57d9-4518-92c3-b605519c3b25)
-
-
-Top 10 cuisines 
-![Cuisines](https://github.com/user-attachments/assets/6e085e78-47d6-4d17-b8a2-9b4af9bd6f5e)
-
-
-Top 10 locations
-![Locations with Resturants](https://github.com/user-attachments/assets/4593b6b0-b47f-4879-bb3d-1f63caa43801)
-
-
-🛠️ How to Run
-
-Clone the repository
-
-Install dependencies:
-
-pip install -r requirements.txt
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
