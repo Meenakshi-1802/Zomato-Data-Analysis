@@ -7,7 +7,7 @@ This project explores and visualizes restaurant data from Zomato to uncover insi
 - Python
 - Pandas & NumPy
 - Matplotlib & Seaborn
-- Jupyter/VS Code
+- VS Code
 
 ---
 
@@ -49,7 +49,7 @@ Bar plots, scatter plots, and box plots were created to display:
 - Online order vs rating
 ![Order vs Rating](https://github.com/user-attachments/assets/10d15977-a286-4d50-94d0-6d6af26575e7)
 
-- Cost for two vs rating
+- Cost vs rating
 ![Cost vs Rating](https://github.com/user-attachments/assets/3fa1c747-260d-414f-8930-6752af5fade6)
 
 - Top 10 cuisines
