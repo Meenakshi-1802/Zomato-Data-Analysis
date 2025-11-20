@@ -64,7 +64,7 @@ git clone https://github.com/YourUsername/Zomato_Analysis_project.git
 cd Zomato_Analysis_project
 ```
 
-3.Run the Python script in VS Code terminal
+3. Run the Python script in VS Code terminal
 
 ```bash
 python zomato_analysis.py
